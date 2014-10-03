@@ -52,3 +52,9 @@ file.
 | Clone view                    | ctrl+alt+shift+d   | CloneFile: Clone |
 | Clone file in list            | ctrl+alt+c         |                  |
 | Complete cloning file in list | tab                |                  |
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-quick-search-enhanced
+- https://github.com/shagabutdinov/sublime-folder-files
