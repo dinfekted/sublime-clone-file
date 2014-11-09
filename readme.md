@@ -4,7 +4,7 @@ Provides "duplicate view" and "clone file/folder in list" functionality.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-clone-file/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/clone_file.gif "Demo")
 
 
 ### WARNING
@@ -14,9 +14,6 @@ permissions) of files and folder can be lost after copying.
 
 When you are cloning file in list you should hit "tab" (but not "enter") after
 entering a new file name. See "Usage" section below for undestanding usecase.
-
-
-### Dependencies
 
 
 ### Installation
@@ -56,5 +53,5 @@ file.
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-quick-search-enhanced
-- https://github.com/shagabutdinov/sublime-folder-files
+* [QuickSearchEnhanced](https://github.com/shagabutdinov/sublime-quick-search-enhanced)
+* [FolderFiles](https://github.com/shagabutdinov/sublime-folder-files)
