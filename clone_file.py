@@ -8,7 +8,7 @@ try:
   from QuickSearchEnhanced import quick_search
 except ImportError:
   sublime.error_message("Dependency import failed; please read readme for " +
-   "SnippetManager plugin for installation instructions; to disable this " +
+   "CloneFile plugin for installation instructions; to disable this " +
    "message remove this plugin")
 
 class CloneView(sublime_plugin.TextCommand):
