@@ -6,10 +6,11 @@ import os
 try:
   from FolderFiles.folder_files import FolderFiles
   from QuickSearchEnhanced import quick_search
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "CloneFile plugin for installation instructions; to disable this " +
-   "message remove this plugin")
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 class CloneView(sublime_plugin.TextCommand):
   def run(self, edit):
